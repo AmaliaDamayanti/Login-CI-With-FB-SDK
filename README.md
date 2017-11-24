@@ -1,5 +1,5 @@
-# facebook-login-ci3
-Facebook login with Codeigniter 3
+# A Simple Login with FB SDK v4 in CodeIgniter
+This is a simple login with FB
 
 ## Preview
 ![login](https://user-images.githubusercontent.com/22884137/33203538-f1245aa2-d132-11e7-944c-43fa8c7e57ab.PNG)
