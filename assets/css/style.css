@@ -1,0 +1,60 @@
+body {
+     margin: 0;
+     padding: 0;
+     text-align: center;
+}
+.nama{
+	font-family: "font-awesome";
+	font-size: 30px;
+	color: white;
+}
+.bg {
+     width: 100%;
+     height: 100%;
+     position: fixed;
+     z-index: 1;
+     float: left;
+     left: 0;
+}
+.container{
+	width: 500px;
+	height: 350px;
+	background-color: rgba(0,0,0, 0.8);;
+	border-radius: 4px;
+	margin:0 auto;
+	margin-top: 150px;
+}
+.container img{
+	width: 120px;
+	height: 120px;
+	margin-top: -60px;
+	margin-bottom: 10px;
+}
+input[type="text"], input[type="password"]{
+	height: 45px;
+	width: 300px;
+	font-size: 18px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	padding-left: 20px;
+}
+form-input: before{
+	background: url(admin.jpg);
+	content: "\f007";
+	position: absolute;
+	font-family: "font-awesome";
+	font-size: 30px;
+	color: #985986;
+	padding-top: 5px;
+	font-size: 35px;
+}
+button{
+	padding: 10px 20px;
+	color: #fff;
+	background-color: #3399ff;
+	border:none;
+	font-family: "batman";
+	font-weight: bold;
+	border-radius: 4px;
+	border-bottom: 4px solid #27AE60;
+}
