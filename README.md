@@ -1,5 +1,5 @@
 # A Simple Login with FB SDK v4 in CodeIgniter
-This is a simple login with FB
+This is a simple login with FB.
 Coming Soon for the tutorial
 
 ## Preview
