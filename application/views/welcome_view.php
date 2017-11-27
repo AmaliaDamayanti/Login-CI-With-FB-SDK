@@ -31,13 +31,15 @@
 					</div>
 				  		</div>	
 						<form action="<?php echo base_url(). 'welcome/proses_simpan'; ?>" method="post">
+							 <input type="hidden" name="idFB" value="<?=$user_profile['id']; ?>">
 						    <input type="hidden" name="nama" value="<?=$user_profile['name']; ?>">
 							<table>
+								<tr><td>ID Facebook </td><td>: <input type="text" name="idFB" value="<?=$user_profile['id']; ?>" disabled/></td> </tr>
 								<tr><td>Nama </td><td>: <input type="text" name="nama" value="<?=$user_profile['name']; ?>" disabled/></td> </tr>
-								<tr><td>First Name </td><td>: <input type="text" name="first" value="<?=$user_profile['first_name']; ?>"/></td> </tr>
-								<tr><td>Last Name </td><td>: <input type="text" name="last" value="<?=$user_profile['last_name']; ?>"/></td> </tr>
-								<tr><td>Gender </td><td>: <input type="text" name="gender" value="<?=$user_profile['gender']; ?>"/></td> </tr>
-								<tr><td>Alamat </td><td>: <input type="text" name="alamat" value="<?=$user_profile['location']->name; ?>"/> </td> </tr>
+								<tr><td>Email </td><td>: <input type="text" name="email"/></td> </tr>
+								<tr><td>No Telepon</td><td>: <input type="text" name="tlp"/></td> </tr>
+								<tr><td>Gender </td><td>: <input type="text" name="gender"/></td> </tr>
+								<tr><td>Alamat </td><td>: <input type="text" name="alamat"/> </td> </tr>
 								<tr><td><button type="submit" name="ubah" class="btn btn-primary"><i class="icon-ok icon-white"></i> Simpan</button></td> 	
 								</tr>
 							</table>
