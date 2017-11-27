@@ -62,16 +62,18 @@ class Welcome extends CI_Controller {
 
 	public function proses_simpan()
 	{	
+		$id = $this->input->post('idFB');
 		$nama = $this->input->post('nama');
-		$first = $this->input->post('first');
-		$last= $this->input->post('last');
+		$email = $this->input->post('email');
+		$tlp= $this->input->post('tlp');
 		$gender= $this->input->post('gender');
 		$alamat= $this->input->post('alamat');
 	
 		$data = array(
+			'id_facebook' => $id,
 			'nama' => $nama,
-			'first_name' => $first,
-			'last_name' => $last,
+			'email' => $email,
+			'tlp' => $tlp,
 			'gender' => $gender,
 			'alamat' => $alamat
 			);
