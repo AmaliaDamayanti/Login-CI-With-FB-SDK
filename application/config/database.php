@@ -63,7 +63,7 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'  => 'mysql:host=localhost; port=3306; dbname=fblogin; charset=utf8;',
+	'dsn'  => 'mysql:host=localhost; port=3306; dbname=tesinagata; charset=utf8;',
 	//'hostname' => 'localhost',
 	//'port' => '3306',
 	'username' => 'root',
